@@ -84,6 +84,3 @@ document.getElementById('searchButton').addEventListener('click', () => {
 });
 document.getElementById('refreshButton').addEventListener('click', refreshApp);
 document.getElementById('addCommentButton').addEventListener('click', addComment);
-
-// Fetch initial weather data (example city: 'London')
-fetchWeather('London');
