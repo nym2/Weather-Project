@@ -20,5 +20,5 @@ This is a straightforward weather application that enables users to check the cu
 ## How It Works
 1. The application utilizes JavaScript to retrieve weather data from the wttr.in API.
 2. It subsequently refreshes the weather details displayed on the screen, incorporating information such as temperature, humidity, and wind speed.
-
+3. All API requests are conducted over HTTPS, and there is no need for an API key.
 
