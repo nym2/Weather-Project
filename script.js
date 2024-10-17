@@ -2,14 +2,23 @@
 
 // Function to fetch weather data
 async function fetchWeather(city) {
-    const unit = document.getElementById('unitSelector').value; // Get the selected unit (m for Celsius, u for Fahrenheit)
+    const unit = document.getElementById('unitSelector').value; // my selected units (m for Celsius, u for Fahrenheit)
     try {
         const response = await fetch(`https://wttr.in/${city}?format=%C+%t+%h+%w&${unit}`);
+        
         if (!response.ok) {
             throw new Error('City not found');
         }
-        const data = await response.text();
-        const [conditions, temperature, humidity, windSpeed] = data.split(' ');
+        
+        const data = await response.text(); // Get the response as text
+        // Split the data and map it to the correct variables
+        const parts = data.split(' '); 
+        
+        // For my responses
+        const conditions = parts[0]; // First part is conditions
+        const temperature = parts[1]; // Second part is temperature
+        const humidity = parts[2]; // Third part is humidity
+        const windSpeed = parts[3]; // Fourth part is wind speed
 
         // Display weather info
         document.getElementById('errorMessage').textContent = ''; // Clear error message
