@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name...">
+        <select id="unitSelector">
+            <option value="m">Celsius</option>
+            <option value="u">Fahrenheit</option>
+        </select>
+        <button id="searchButton">Search</button>
+        <p id="errorMessage" class="error-message"></p>
+        <div class="weather-info">
+            <div id="weatherIcon"></div>
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="conditions"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+        </div>
+        <button id="refreshButton">Refresh</button>
+
+        <!-- Comment Section -->
+        <div class="comment-section">
+            <h3>Comments</h3>
+            <input type="text" id="commentInput" placeholder="Add a comment about the weather...">
+            <button id="addCommentButton">Comment</button>
+            <div id="commentList"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

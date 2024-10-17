@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34; /* Dark background color */
+    color: #61dafb; /* Light blue color for text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1e1e1e; /* Slightly lighter dark background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+}
+
+.weather-info {
+    margin: 15px 0;
+}
+
+#weatherIcon img {
+    width: 80px;
+    height: 80px;
+}
+
+input[type="text"], select {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    background: #333;
+    color: #61dafb;
+}
+
+button {
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4ea3c7; /* Darker shade for hover */
+}
+
+.error-message {
+    color: #ff6347; /* Red color for error messages */
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment {
+    background: #444;
+    color: #61dafb;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment button {
+    background-color: #ff6347; /* Red color for delete button */
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.comment button:hover {
+    background-color: #e5533d; /* Darker red for hover */
+}
+
+#unitSelector {
+    width: 50%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    background: #333;
+    color: #61dafb;
+}
