@@ -12,3 +12,5 @@ This is a straightforward weather application that enables users to check the cu
 - **CSS**: Responsible for styling the app and enhancing its visual appeal.
 - **JavaScript**: Utilized for retrieving weather data from the API and dynamically updating the page.
 - **wttr.in API**: The external API employed to obtain real-time weather information.
+
+## How To Use
