@@ -16,3 +16,6 @@ This is a straightforward weather application that enables users to check the cu
 ## How To Use
 1. Open the index.html file in your preferred web browser.
 2. Type a city name into the search box to check the weather for that area, or click the "Use Current Location" button to view the weather for your current spot.
+
+## How It Works
+
