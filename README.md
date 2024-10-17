@@ -14,3 +14,4 @@ This is a straightforward weather application that enables users to check the cu
 - **wttr.in API**: The external API employed to obtain real-time weather information.
 
 ## How To Use
+1. Open the index.html file in your preferred web browser.
