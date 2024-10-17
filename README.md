@@ -24,4 +24,4 @@ This is a straightforward weather application that enables users to check the cu
 
 ## Credits
 Weather data provided by `wttr.in`.
-- **API Usage**:  
+- **API Usage**: This app uses the wttr.in API, which provides weather data without the need for an API key. The API request format looks like this:  
