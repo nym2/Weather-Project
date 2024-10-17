@@ -23,4 +23,4 @@ This is a straightforward weather application that enables users to check the cu
 3. All API requests are conducted over HTTPS, and there is no need for an API key.
 
 ## Credits
-
+Weather data provided by `wttr.in`.
