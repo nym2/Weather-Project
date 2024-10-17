@@ -18,4 +18,5 @@ This is a straightforward weather application that enables users to check the cu
 2. Type a city name into the search box to check the weather for that area, or click the "Use Current Location" button to view the weather for your current spot.
 
 ## How It Works
+1. The application utilizes JavaScript to retrieve weather data from the wttr.in API.
 
