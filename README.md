@@ -24,3 +24,4 @@ This is a straightforward weather application that enables users to check the cu
 
 ## Credits
 Weather data provided by `wttr.in`.
+- **API Usage**:  
