@@ -26,3 +26,6 @@ This is a straightforward weather application that enables users to check the cu
 Weather data provided by `wttr.in`.
 - **API Usage**: This app uses the wttr.in API, which provides weather data without the need for an API key. The API request format looks like this: https://wttr.in/{city_name}?format=j1
 
+## Conclusion
+This `README.md` file is straightforward and easy to understand, and includes all the key information about the weather app. You can modify the content or include additional details as necessary!
+
