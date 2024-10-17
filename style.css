@@ -1,9 +1,9 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #282c34; /* Dark background color */
-    color: #61dafb; /* Light blue color for text */
+    font-family: ubuntu;
+    background-color: #000e29; /* Dark background color */
+    color: #fcfeff; /* Light blue color for text */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,13 +37,17 @@ body {
 
 .container {
     position: relative; /* Position relative to allow absolute positioning of children */
-    background: #1e1e1e; /* Slightly lighter dark background */
+    background: #4ea3c781; /* Slightly lighter dark background */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     width: 400px;
     text-align: center;
     z-index: 1; /* Bring content above the video */
+    color: #010634;
+}
+#cityName {
+    color: #010634;
 }
 
 .weather-info {
@@ -59,16 +63,16 @@ input[type="text"], select {
     width: 80%;
     padding: 8px;
     margin: 10px 0;
-    border: 1px solid #61dafb;
+    border: 1px solid #010e45;
     border-radius: 5px;
-    background: #333;
-    color: #61dafb;
+    background: #fafafa;
+    color: #000727;
 }
 
 button {
-    background-color: #61dafb;
+    background-color: #010634;
     border: none;
-    color: #282c34;
+    color: #ffffff;
     padding: 8px 16px;
     margin-top: 10px;
     cursor: pointer;
@@ -80,18 +84,19 @@ button:hover {
 }
 
 .error-message {
-    color: #ff6347; /* Red color for error messages */
+    color: #c02206; /* Red color for error messages */
     font-size: 0.9em;
     margin: 5px 0;
 }
 
 .comment-section {
     margin-top: 20px;
+    color: #010634;
 }
 
 .comment {
-    background: #444;
-    color: #61dafb;
+    background: #010634;
+    color: #f7f8f8;
     padding: 8px;
     margin: 5px 0;
     border-radius: 5px;
@@ -101,7 +106,7 @@ button:hover {
 }
 
 .comment button {
-    background-color: #ff6347; /* Red color for delete button */
+    background-color: #a41d05; /* Red color for delete button */
     padding: 4px 8px;
     border: none;
     cursor: pointer;
@@ -109,15 +114,15 @@ button:hover {
 }
 
 .comment button:hover {
-    background-color: #e5533d; /* Darker red for hover */
+    background-color: #a31b06; /* Darker red for hover */
 }
 
 #unitSelector {
     width: 50%;
     padding: 8px;
     margin: 10px 0;
-    border: 1px solid #61dafb;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
-    background: #333;
-    color: #61dafb;
+    background: #010634;
+    color: #fefefe;
 }
